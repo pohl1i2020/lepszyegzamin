@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <main>
+
+        <header id="baner">
+            <img src="materialy/baner.gif" alt="baner">
+        </header>
+
+
+            <aside>
+                <hr>
+                <h2><a href="index.html">BMI</a></h2>
+                <hr>
+                <h2><a href="kalkulator.html">Kalkulator</a></h2>
+                <hr>
+
+            </aside>
+
+            <section>
+                <form action="">
+                 <header>   Waga: </header>
+                    <input type="text" name="wage" id="wage">
+                  <header>  Wzrost: </header>
+                    <input type="text" name="height" id="height"> 
+                </form>
+                <button>Oblicz BMI</button>
+                <p id="valueBmi"></p>
+                <p id="catBmi"></p>
+            </section>
+
+
+        <footer>
+            <p>  Kamil Pohl <i>0123456789</i> </p> 
+
+        </footer>
+        <script>
+            const button = document.querySelector("button");
+
+            button.addEventListender(oblicz);
+
+            const oblicz = (evt) => {
+              evt.preventDefault(); 
+              let height = document.querySelector("#height").value;
+              let weight = document.querySelector("#wage").value;
+              const BMI = weight / (height * height);
+            
+            };
+        </script>
+    </main>
+    
+</body>
+</html>
