@@ -1,54 +1,56 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #7D7F85;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #7d7f85;
 }
-main{
-    width: 800px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+main {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-#baner{
-    height: 260px;
-    width: 100%;
+#baner {
+  height: 260px;
+  width: 100%;
 }
-aside{
-    background-color: #1A3B98;
-    text-align: center;
-    height: 600px;
-    width: 20%;
+aside {
+  background-color: #1a3b98;
+  text-align: center;
+  height: 600px;
+  width: 20%;
 }
-section{
-    background-color: #C2C3C2;
-    text-align: center;
-    color: #886829;
-    height: 560px;
-    width: 80%;
-    padding-top: 40px;
+section {
+  background-color: #c2c3c2;
+  text-align: center;
+  color: #886829;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-footer{
-    background-color: #1A3B98;
-    text-align: center;
-    color: white;
-    width: 100%;
+footer {
+  background-color: #1a3b98;
+  text-align: center;
+  color: white;
+  width: 100%;
 }
-table{
-    width: 500px;
-    text-align: center;
-    align-content: center;
+table {
+  width: 500px;
+  text-align: center;
+  align-content: center;
 }
-th{
-    background-color: #777777;
+th {
+  background-color: #777777;
 }
-table tr:nth-child(2n + 1){
-    background-color: #AAAAAA;
+table tr:nth-child(2n + 1) {
+  background-color: #aaaaaa;
 }
-#valueBmi{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-size: 30px;
+#valueBmi {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
-#catBmi{
-    font-size: 50px;
+#catBmi {
+  font-size: 50px;
 }
